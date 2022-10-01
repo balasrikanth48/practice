@@ -10,6 +10,8 @@ public class browserNotification {
 	{
 		ChromeOptions options=new ChromeOptions();
 		options.addArguments("--disable-notifications");
+		//options.addArguments("--incognito");
+		options.addArguments("--headless");
 		
 		System.setProperty("webdriver.chrome.driver", "D:\\Chrome\\chromedriver.exe");
 		WebDriver driver=new ChromeDriver(options);

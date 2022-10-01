@@ -6,8 +6,13 @@ public class ArrayList {
 	{
 		//Decleraing ArrayList
 		
-		ArrayList al=new ArrayList();
-	
+		java.util.ArrayList<String> al=new java.util.ArrayList<>();
+		al.add("Sraikanth");
+		al.add("Panchala");
+		System.out.println(al);
+		al.add(1, "Bala");
+		System.out.println(al);
+
 		
 		
 

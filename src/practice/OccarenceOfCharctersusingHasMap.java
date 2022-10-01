@@ -23,6 +23,8 @@ public class OccarenceOfCharctersusingHasMap
                 // If char is present in charCountMap,
                 // incrementing it's count by 1
                 charCountMap.put(c, charCountMap.get(c) + 1);
+                
+                
             }
             else {
  
