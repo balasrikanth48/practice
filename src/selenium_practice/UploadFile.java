@@ -28,6 +28,7 @@ public class UploadFile {
 		JavascriptExecutor js=(JavascriptExecutor)driver;
 		js.executeScript("arguments[0].click()", button);
 		
+		
 		Robot rb=new Robot();
 		rb.delay(2000);
 		//path to set in clipboard
