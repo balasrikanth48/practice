@@ -18,7 +18,8 @@ public class OccarenceOfCharctersusingHasMap
  
         // checking each char of strArray
         for (char c : strArray) {
-            if (charCountMap.containsKey(c)) {
+            if (charCountMap.containsKey(c))
+            {
  
                 // If char is present in charCountMap,
                 // incrementing it's count by 1
