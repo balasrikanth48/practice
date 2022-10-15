@@ -15,7 +15,7 @@ public class Navigations {
 		driver.navigate().forward();
 		driver.navigate().refresh();
 		driver.navigate().to("https://www.amazon.in/");
-
+		
 	}
 
 }

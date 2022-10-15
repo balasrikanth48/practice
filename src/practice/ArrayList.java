@@ -12,7 +12,7 @@ public class ArrayList {
 		System.out.println(al);
 		al.add(1, "Bala");
 		System.out.println(al);
-
+		
 		
 		
 

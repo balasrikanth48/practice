@@ -6,7 +6,7 @@ public class ArraysAreEqual {
 	
 	public static void main(String[] args) 
 	{
-		int a1[]= {1,2,3,4,5};
+		int a1[]= {1,-2,3,4,5};
 		int a2[]= {1,20,3,4,5};
 		
 		//Approach1

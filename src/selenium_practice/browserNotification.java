@@ -13,6 +13,7 @@ public class browserNotification {
 		//options.addArguments("--incognito");
 		options.addArguments("--headless");
 		
+		
 		System.setProperty("webdriver.chrome.driver", "D:\\Chrome\\chromedriver.exe");
 		WebDriver driver=new ChromeDriver(options);
 		driver.get("https://www.redbus.in/");
