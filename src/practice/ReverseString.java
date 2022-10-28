@@ -3,7 +3,7 @@ package practice;
 public class ReverseString {
 
 	 
-	public static void Revserse (String[] args) 
+	public static void main (String[] args) 
 	{
 		String str="Srikanth";
 		String Rev = "";
@@ -16,11 +16,6 @@ public class ReverseString {
 			
 		}
 		System.out.println("Reverse of the String is:"+ Rev);
-		//return Rev
-		
-		
-		
-		
-		
+	
 	}
 }

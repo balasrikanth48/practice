@@ -38,12 +38,12 @@ public class WindowHandle {
 		
 		List<String>  windowidlist= new ArrayList<>(id);
 //		String parentwindow=windowidlist.get(0);
-//		String chaildwindowid=windowidlist.get(1);
-//		System.out.println("Parent id  :"+parentwindow +"chaild windowid::"+chaildwindowid);
+//		String childwindowid=windowidlist.get(1);
+//		System.out.println("Parent id  :"+parentwindow +"chaild windowid::"+childwindowid);
 //		//how to use windows for switvhing
 //		driver.switchTo().window(parentwindow);
-//		System.out.println("Tittle :"+driver.getTitle());
-//		driver.switchTo().window(chaildwindowid);
+//		System.out.println("Title :"+driver.getTitle());
+//		driver.switchTo().window(child windowid);
 //		
 		//for each loop
 		
